@@ -4,12 +4,11 @@
 # all emotion types
 emo_types <- c("anger", "anticipation", "disgust", "fear", "joy",
                "sadness", "surprise", "trust", "neutral")
-# Color for each corresponding emotion types
+# Color for each emotion types
 col_use <- c("red", "pink", "green", "black", "yellow",
              "blue", "purple", "brown", "gray")
 image_path <- "../figs"
 
-# Generate plots for the first section
 get_plot1 <- function(sentence_list){
   
   #Fig 1.1

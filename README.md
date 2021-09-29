@@ -14,8 +14,8 @@ Term: Fall 2021
 
 + Three sub-questions answered by this report are:
     1. Overall, what types of emotion are expressed in philosophy texts?
-    2. Are there any differences between philosopher in terms of emotional expression?
-    3. Do philosophers from different schools of philosophy tend to express different emotions?
+    2. Are there any differences between philosopher in terms of expressing emotions in their texts?
+    3. Do philosophers from different schools of philosophy tend to express different emotions in their masterpieces?
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 

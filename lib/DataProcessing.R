@@ -1,11 +1,15 @@
-# This r script contains 2 functions
+# This r script contains 3 functions
 
 # raw_data_proc() is used to process the raw data. data_file_path is the path
 # to the raw data file.
 # It selects the data to to be used for analysis;
 # get the sentiment scores for each sentence; 
 # store the processed data in a csv file; and
-# return the path to the processed data
+# return the path to the csv file
+
+# Get_max_position is a helper function
+# used in processed_data_proc(). Find more comments about
+# this function below
 
 # processed_data_proc() is used to get the top emotion and the 
 # emotion score for the top emotion for each sentence.
@@ -48,6 +52,8 @@ processed_data_proc <- function(processed_data_file_path){
   # Get the top emotion of each sentence
   sentence_list$topemo <- sentence_list %>%
     select(anger:trust) %>%
+    # if there are multiple emotions with the highest score
+    # return a random one as the top emotion
     apply(1, get_max_position)
   
   # Get the emotion score of the top emotion
