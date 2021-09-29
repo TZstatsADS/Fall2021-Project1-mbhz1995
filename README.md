@@ -2,19 +2,22 @@
 ## Fall 2021
 ## Project 1: A "data story" on the history of philosophy
 
-<img src="figs/100126-the-glass.jpeg" width="500">
-
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) project this semester. 
 
 Term: Fall 2021
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
++ Projec title: What emotions do some well-known philosophers express in their masterpieces?
++ This project is conducted by Bohao Ma.
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: When it comes to philosophy, we tend to focus on philosophers' thoughts and beliefs about some fundamental questions, such as those about value, mind, and existence. However, we rarely pay attention to the emotions expressed in some masterpieces of philosophy. In this report, therefore, I aim at answering the following question: what emotions do some well-known philosophers express in their masterpieces?
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
++ Three sub-questions answered by this report are:
+    1. Overall, what types of emotion are expressed in philosophy texts?
+    2. Are there any differences between philosopher in terms of emotional expression?
+    3. Do philosophers from different schools of philosophy tend to express different emotions?
+
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 
 ```
 proj/
