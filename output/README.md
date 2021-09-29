@@ -2,5 +2,5 @@
 
 ### Output folder
 
-The output directory contains a csv file, which is the processed data with the results for sentiment analysis.
+The output directory contains a csv file, which is the processed data with the results from sentiment analysis.
 
