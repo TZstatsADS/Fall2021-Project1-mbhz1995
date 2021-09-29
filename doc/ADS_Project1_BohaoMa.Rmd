@@ -3,11 +3,11 @@ title: "What emotions do some well-known philosophers express in their masterpie
 author: "Bohao Ma"
 date: "9/27/2021"
 output:
+  pdf_document:
+    toc: yes
   html_document:
     toc: yes
     theme: united
-  pdf_document:
-    toc: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -66,14 +66,17 @@ plot1 <- get_plot1(sentence_list)
 ```
 
 The overall emotions for all philosophers in the dataset are displayed in Fig1.1 below. First, trust, anticipation, and anger are the major types of emotions expressed in the philosophical texts, taking up over 40% of the overall sentences. More importantly, it is surprising that only less than 30% of the sentences are emotionally neutral, which seems to contrast with the common impression that philosophical texts are plain, sophisticated and dull.
+
 ![](../figs/Fig1.1.jpeg)
 
 However, this conclusion might be invalid if we take a closer look at the distributions of the emotion score for each emotion, as shown in the Violin plot in Fig 1.2. All emotions, except for trust, has a emotion score of 1 in most of the sentences where the emotion is classified as the (top) emotion. In fact, about 40% of all sentences has a emotion score of 1 (the lowest emotion score above emotional neutrality in my analysis). Hence, about 70% of sentences in the philosophical texts are emotional neutral or close to being neutral, which is more in line with the common impression. It is also worth noting that there are also some emotionally charged sentences with an emotional score over ten. So philosophers can get very emotionally charged in their texts, although such circumstances are very rare.
+
 ![](../figs/Fig1.2.jpeg)
 
 ## 2. Are there any differences between philosopher in terms of expressing emotions in their texts?
 
 Despite the overall emotional neutrality, there are some major differences between the philosophers in terms of emotional expression. As shown in the two tables below, for example, only 10.55% of Wollstonecraft's sentences are emotionally neutral whereas 46.01% of Wittgenstein's sentences are neutral. Such huge differences can be explained by the different writing styles of the philosophers as well as the emotional states of the philosophers when they were writing the texts.
+
 ```{r, message=FALSE, warning=FALSE, echo = FALSE}
 #Example in section
 ex2 <- get_example2(sentence_list)
@@ -86,6 +89,7 @@ grid.arrange(tableGrob(ex2[[1]]), tableGrob(ex2[[2]]))
 plot3 <- get_plot3(sentence_list)
 ```
 Philosophers from different schools of philosophy can have distinct or sometimes contradicting values and beliefs. So an interesting question is whether such differences influence the types of emotions expressed in the texts from various schools of philosophy.
+
 ![](../figs/Fig3.1.jpeg)
 
 As shown in Fig 3.1, the differences in terms of emotions are very mild across all 13 schools of philosophy. This suggests that on average, philosophers from different schools of philosophy tend to express the same types of emotion even when they are trying to elaborate very different thoughts or ideas. 
